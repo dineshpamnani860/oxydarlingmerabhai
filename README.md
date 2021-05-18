@@ -40,7 +40,7 @@ $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m OxyXmusic4
+$ python(3) -m OxyXmusic
 ```
 
 ### Commands for Group 🛠
