@@ -19,12 +19,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from OxyXmusic.config import (
-    BOT_USERNAME,
-    PROJECT_NAME,
-    SUPPORT_GROUP,
-    UPDATES_CHANNEL,
-)
+from OxyXmusic.config import BOT_USERNAME, PROJECT_NAME, SUPPORT_GROUP, UPDATES_CHANNEL
 from OxyXmusic.modules.msg import Messages as tr
 
 logging.basicConfig(level=logging.INFO)
