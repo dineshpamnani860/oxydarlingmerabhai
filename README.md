@@ -1,8 +1,8 @@
-<h1 align="centre">OXYXMUSIC V4 🎵</h1>
+<h1 align="centre">OxYXMUSIC V4.0 🎵</h1>
 
-### A bot that can play music on telegram group's voice call
-#### BASED ON [CALLSMUSIC](https://github.com/callsmusic/callsmusic)
-# Available on telegram as @Music_op_bot
+### A bot that can play music on Telegram Group and Channel Voice Chats
+#### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
+### Available on telegram as [@Music_op_bot](https://t.me/Music_op_bot)
 
 <p align="center">
   <img src="https://telegra.ph/file/a765ac304f4d6f507e544.jpg">
@@ -19,10 +19,31 @@
 - Settings panel
 - Control with buttons
 - Userbot auto join
-- Cahnnel Music Play
+- Channel Music Play
 
+## 🚀 Deployment
 
-### Commands 🛠
+### 💜 Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OxyNotOp/OxyXmusic4)
+
+Use [@Pyrogram_gen_bot](https://t.me/Pyrogram Pyrogram_gen_bot) to get pyrogram string session
+
+### ⚔ Self-hosting (For Devs) 
+```sh
+# Install Git First (apt-instll git)
+$ git clone https://github.com/OxyNotOp/OxyXmusic4
+$ cd OxyXmusic4
+# Upgrade sources
+# Install All Requirements 
+$ pip(3) install -r requirements.txt
+# Rename example.env to local.env and fill
+$ npm i -g npm
+# Start Bot 
+$ python(3) -m OxyXmusic4
+```
+
+### Commands for Group 🛠
 #### For all in group
 
 - `/play <song name>` - play song you requested
@@ -47,20 +68,31 @@
 - `/userbotleave` - remove assistant from your chat
 - `/admincache` - Refresh admin list
 
-#### Channel Music Play.
-You can set Channel Music Play like this:
+### Commands for Channel Music Play 🛠
+For linked group admins only:
+- `/cplay <song name>` - play song you requested
+- `/cplay <reply to audio>` - play replied file
+- `/cdplay <song name>` - play song you requested via deezer
+- `/csplay <song name>` - play song you requested via jio saavn
+- `/cplaylist` - Show now playing list
+- `/cccurrent` - Show now playing
+- `/cplayer` - open music player settings panel
+- `/cpause` - pause song play
+- `/cresume` - resume song play
+- `/cskip` - play next song
+- `/cend` - stop music play
+- `/userbotjoinchannel` - invite assistant to your chat
+* channel is also can be used instead of c
+
+If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
  3. Add @Music_op_bot as Channel admin with full perms
- 4. Send /userbotjoin in Channel
+ 4. add helper to channel
  5. Simply send commands in your group.
 
 
-### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OxyNotOp/OxyXmusic4)
-
-Use [@Pyrogram_gen_bot](https://t.me/Pyrogram_gen_bot) to get pyrogram string session or [repl](https://repl.it/@SpEcHiDe/GenerateStringSession)
 
 ### Credits
 This bot is based on the original work done by [Lucifer](http://github.com/dineshpamnani860). Without his hardwork oxyxmusic won't exist. 
