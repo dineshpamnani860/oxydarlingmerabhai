@@ -95,7 +95,7 @@ If you donlt like to play in linked channel:
 
 
 ### Credits
-This bot is based on the original work done by [Lucifer](http://github.com/dineshpamnani860). Without his hardwork oxyxmusic won't exist. 
+This bot is based on the original work done by [OXY](https://github.com/OxyNotOp/OxyNotOp). Without his hardwork oxyxmusic won't exist. 
 OxyXmusic is a modified version of [Munna](https://github.com/callsmusic/xxMUNNAxx) for fit the needs of @Music_op_bot users
 
 <details>
