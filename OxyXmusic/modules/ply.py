@@ -1,8 +1,8 @@
 from os import path
 
-import converter
-from config import DURATION_LIMIT
-from downloaders import youtube
+import OxyXmusic.services.converter
+from OxyXmusic.config import DURATION_LIMIT
+from OxyXmusic.services.downloaders import youtube
 
 from OxyXmusic import Client
 from OxyXmusic.callsmusic import callsmusic, queues
